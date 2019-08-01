@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "ExampleModel",
+    "owner": "adrienG",
+    "description": "Ceci est un exemple d'utilisation de Threat Dragon pour la création de modèle de vulnérabilités. Ce modèle servira pour la réalisation d'un audit sur les objets connectés et correspond à une étape de la méthode d'audit sur des objets connectés."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "adrienG"
+  }
+}
