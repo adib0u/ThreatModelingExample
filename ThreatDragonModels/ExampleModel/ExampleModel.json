@@ -20,34 +20,8 @@
                 "height": 80
               },
               "position": {
-                "x": 50,
-                "y": 50
-              },
-              "angle": 0,
-              "id": "72304dae-6ee3-4506-93e1-2dae735f1ab2",
-              "z": 1,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "actor 0"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 50,
-                "y": 50
+                "x": 70,
+                "y": 40
               },
               "angle": 0,
               "id": "d8778f97-a6f1-4043-9dc0-d12976f4d844",
@@ -72,8 +46,8 @@
                 "height": 80
               },
               "position": {
-                "x": 330,
-                "y": 640
+                "x": 360,
+                "y": 630
               },
               "angle": 0,
               "id": "e5a9dbf7-c12a-43b7-b626-431a26f29389",
@@ -98,8 +72,8 @@
                 "height": 80
               },
               "position": {
-                "x": 590,
-                "y": 350
+                "x": 610,
+                "y": 390
               },
               "angle": 0,
               "id": "a0f6f726-a31f-48e4-92eb-fd1e96914cfb",
@@ -124,8 +98,8 @@
                 "height": 80
               },
               "position": {
-                "x": 326,
-                "y": 214
+                "x": 360,
+                "y": 40
               },
               "angle": 0,
               "id": "9960c334-b3bd-4daa-998a-7720253aa3e8",
@@ -150,34 +124,8 @@
                 "height": 100
               },
               "position": {
-                "x": 80,
-                "y": 200
-              },
-              "angle": 0,
-              "id": "967c985a-f89d-40b2-92ca-66d71d26d67b",
-              "z": 6,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "ZigBeeNetwork"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 360,
-                "y": 340
+                "x": 390,
+                "y": 210
               },
               "angle": 0,
               "id": "446ccff3-0abd-423f-8c2b-f02b53911671",
@@ -202,8 +150,8 @@
                 "height": 100
               },
               "position": {
-                "x": 620,
-                "y": 500
+                "x": 640,
+                "y": 620
               },
               "angle": 0,
               "id": "dbedadc6-19f6-4374-a98a-3a51ca894d97",
@@ -225,40 +173,6 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "d8778f97-a6f1-4043-9dc0-d12976f4d844"
-              },
-              "target": {
-                "id": "967c985a-f89d-40b2-92ca-66d71d26d67b"
-              },
-              "vertices": [],
-              "id": "3bbb210e-4002-4da3-93a8-e299c19d33c0",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 8",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 9,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
                 "id": "9960c334-b3bd-4daa-998a-7720253aa3e8"
               },
               "target": {
@@ -271,7 +185,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 10",
+                      "text": "HTTP",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -290,48 +204,27 @@
               }
             },
             {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 330,
-                "y": 520
-              },
-              "angle": 0,
-              "id": "2f3b9e6d-1d9c-4aef-be4f-3ae1129391e8",
-              "z": 13,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Local WifiNetwork"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
                 "id": "446ccff3-0abd-423f-8c2b-f02b53911671"
               },
               "target": {
-                "id": "a0f6f726-a31f-48e4-92eb-fd1e96914cfb"
+                "id": "4a7446e3-261c-4bac-a78d-a1ecb0ee9cef"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 440,
+                  "y": 330
+                }
+              ],
               "id": "5401de57-75ec-439f-93d2-7598e859a8fc",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 12",
+                      "text": "HTTP",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -387,19 +280,31 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "967c985a-f89d-40b2-92ca-66d71d26d67b"
+                "id": "d8778f97-a6f1-4043-9dc0-d12976f4d844"
               },
               "target": {
                 "id": "9960c334-b3bd-4daa-998a-7720253aa3e8"
               },
-              "vertices": [],
-              "id": "d260d999-b15a-4574-b2a7-d815d80d0c8a",
+              "vertices": [
+                {
+                  "x": 300,
+                  "y": 80
+                },
+                {
+                  "x": 330,
+                  "y": 80
+                }
+              ],
+              "id": "e29eb21f-8e45-4865-9bf1-01404f88c2a4",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.6234487884570867,
+                    "offset": -11.206729282683101
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 13",
+                      "text": "ZigBee",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -407,15 +312,74 @@
                 }
               ],
               "z": 16,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "protocol": "ZigBee",
+              "isEncrypted": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Faille du protocole ZigBee",
+                  "type": "Denial of service",
+                  "description": "Une faille existante sur le protocole ZigBee permet de désactiver la connexion de deux appareils ZigBee communiquant entre eux. Cela a pour conséquences de permettre à quiconque étant à porté du réseau ZigBee de désactiver la connexion entre l'objet et sa passerelle.",
+                  "mitigation": ""
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 360,
+                "y": 400
+              },
+              "angle": 0,
+              "id": "4a7446e3-261c-4bac-a78d-a1ecb0ee9cef",
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "WiFi Gateway"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 610,
+                "y": 240
+              },
+              "target": {
+                "x": 520,
+                "y": 800
+              },
+              "vertices": [
+                {
+                  "x": 550,
+                  "y": 620
+                }
+              ],
+              "id": "c3b0c2d9-c4f1-4031-81b1-6c85abefe6e1",
+              "z": 18,
+              "attrs": {}
             }
           ]
         },
